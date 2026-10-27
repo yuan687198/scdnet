@@ -9,7 +9,8 @@ V2C dataset consists: [data](https://pan.quark.cn/s/845f32100cf7) (Extraction co
 
 ## Training and Evaluation
 For training:
-```python train.py --cms int --batch_size 60 --epochs 2500 --num_layer 6 --dim_head 64 --dim_inner 1024 \
+```
+python train.py --cms int --batch_size 60 --epochs 2500 --num_layer 6 --dim_head 64 --dim_inner 1024 \
                 --num_head 8 --dim_vis_feat 2048 --dropout 0.1 --rnn_layer 1 --checkpoint_path ./save \
                 --info_json data/v2c_info.json --caption_json data/V2C_MSR-VTT_caption.json \
                 --print_loss_every 20 --cuda --show_predict   
