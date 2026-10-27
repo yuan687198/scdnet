@@ -1,0 +1,10 @@
+python 3.7.16
+ftfy
+regex
+tqdm
+torch
+torchvision
+nltk
+h5py
+
+
