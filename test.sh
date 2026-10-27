@@ -1,0 +1,1 @@
+python test_cms.py  --cms int --batch_size 60 --num_layer 6 --dim_head 64 --dim_inner 1024                     --num_head 8 --dim_vis_feat 2048 --dropout 0.1 --rnn_layer 1 --checkpoint_path ./save                      --info_json data/v2c_info.json --caption_json data/V2C_MSR-VTT_caption.json                      --load_checkpoint save/cms/cms.pth --cuda
